@@ -1,0 +1,62 @@
+body{
+    background-color: lightblue;
+    color: indigo;
+    font-size: 150%;
+    font-family: 'Roboto', serif;
+}
+
+fieldset{
+    border: 3px solid indigo;
+    font-weight: bold;
+    width: 500px;
+}
+
+legend{
+    color: midnightblue;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+a{
+    color: whitesmoke;
+}
+
+p{
+   color: lightblue;
+   text-shadow: 0px 0px 0.01px indigo;
+}
+
+a:hover{
+    color: red;
+    font-size: 200%;
+}
+
+table {
+    border: 3px solid indigo;
+    border-collapse: collapse;
+    width: 550px;
+}
+
+th{
+    color: indigo;
+    padding: 10px;
+    text-align: left;
+    border: 3px solid indigo;
+}
+
+th.tituloTabla{
+    text-align: center;
+}
+
+td{
+    color: midnightblue;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid indigo;
+}
+
+h2{
+    color: indigo;
+    font-size: 175%
+}

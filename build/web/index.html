@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel='stylesheet' type='text/css' href='estilo.css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:500' rel='stylesheet' type='text/css'>
+        <title>Juego de piedra, papel y tijera</title>
+    </head>
+    <body>  
+        <h1>Juego de piedra, papel y tijera</h1>
+        <form action="PPT.jsp" method="POST"> 
+        <!--<form action="ServletPPT" method="GET"> -->
+            <fieldset>
+                <legend> Selecciona tu primera jugada:</legend><br>
+                <label><input type="radio" id="piedra" name="juego" value="piedra" checked> Piedra</label>
+                <label><input type="radio" id="papel" name="juego" value="papel"> Papel</label>
+                <label><input type="radio" id="tijera" name="juego" value="tijera"> Tijera</label>
+                <input type="hidden" name="nuevo" value="yes">
+                <br><br>
+                <input type="submit" value="Enviar selección">
+            </fieldset>
+        </form>
+    </body>
+</html>
+
+
+
